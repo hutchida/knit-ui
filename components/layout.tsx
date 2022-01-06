@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
+import { Button } from 'knit-hutchida'
 
 const name = "Daniel Hutchings";
 export const siteTitle = "Next.js Sample Website";
@@ -64,7 +65,14 @@ export default function Layout({ children, home }: { children: any, home?: boole
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
-            <a>← Back to home</a>
+            <a>
+              <Button
+                primary
+                size="small"
+                backgroundColor="red"
+                label="← Back to home"
+              />
+            </a>
           </Link>
         </div>
       )}
