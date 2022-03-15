@@ -1581,10 +1581,10 @@ kleur@^4.0.3:
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-4.1.4.tgz#8c202987d7e577766d039a8cd461934c01cda04d"
   integrity sha512-8QADVssbrFjivHWQU7KkMgptGTl6WAcSdlbBPY4uNF+mWr6DGcKrvY2w4FQJoXch7+fKMjj0dRrL75vk3k23OA==
 
-knit-hutchida@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/knit-hutchida/-/knit-hutchida-1.0.2.tgz#172c7f1cc36095be16ee1f7ebc44f6d73312c492"
-  integrity sha512-6hPma4lWpzmY/uVLtQf8YpOlgNF6pfeGqZ1CK/XBqKFvDCJKdN9QL91aQPb3GYIIE5EtpeavS52izxh6Je5piw==
+knit-hutchida@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/knit-hutchida/-/knit-hutchida-1.0.3.tgz#54baef8dd67408b15cf5250bc53f3adae0bf242c"
+  integrity sha512-n342LtsjejYtQa3sYO6eqH5Ak+QmqlUe5/YR7tlaaxCARZCi/aC5V9hiD/ZYLx/9a0vSEBeaYU6mOUrSC5mZfg==
   dependencies:
     styled-components "^5.3.3"
     tailwind-styled-components "^2.1.4"
