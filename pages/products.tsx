@@ -33,7 +33,7 @@ export default function Home({
 
 export const getStaticProps: GetStaticProps = async () => {
   const allPostsData = getSortedPostsData()
-  const response = await fetch('http://localhost:3001/api/items')
+  const response = await fetch('http://localhost:3005/api/items')
   const productItems = await response.json()
   return {
     props: {
